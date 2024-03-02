@@ -56,6 +56,17 @@
       }
     }
   </script>
+  <% } else { %>
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+          "@oci/root-config": "https://bayuwardani.github.io/mf-oci-travel-root/oci-root-config.js",
+          "@oci/travel-train":"https://bayuwardani.github.io/mf-oci-travel-train/oci-travel-train.js",
+          "@oci/travel-hotel":"https://bayuwardani.github.io/mf-oci-travel-hotel/oci-travel-hotel.js",
+          "@oci/travel-dashboard":"https://bayuwardani.github.io/mf-oci-travel-dashboard/oci-travel-dashboard.js"
+        }
+      }
+    </script>
   <% } %>
 
   <!--
